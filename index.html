@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Free Woodworking Plans</title>
+    <style>
+        body { font-family: Arial, sans-serif; text-align: center; background: #f4f4f4; }
+        .container { max-width: 600px; margin: 50px auto; padding: 20px; background: white; border-radius: 10px; }
+        h1 { color: #333; }
+        input { padding: 10px; width: 70%; margin: 10px 0; }
+        button { padding: 10px 20px; background: #d2691e; color: white; border: none; cursor: pointer; }
+        button:hover { background: #a0522d; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Get 16,000+ Woodworking Plans for Free!</h1>
+        <p>Sign up now and start building your dream projects today.</p>
+        <input type="email" placeholder="Enter your email" id="email">
+        <br>
+        <button onclick="subscribe()">Get Plans Now</button>
+        <p><small>We’ll send you a link to access the plans instantly!</small></p>
+    </div>
+    <script>
+        function subscribe() {
+            let email = document.getElementById("email").value;
+            if (email) {
+                alert("Thanks for signing up! Check your email for the plans.");
+                // Email entegrasyonu buraya eklenecek.
+            }
+        }
+    </script>
+</body>
+</html>
